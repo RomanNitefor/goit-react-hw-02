@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.btnGood,
+.btnNeutral,
+.btnBad,
+.btnReset {
+  cursor: pointer;
+  border: 1px solid #383535;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 100px;
+  height: 100%;
+}
+
+.btnGood {
+  background-color: green;
+  color: #fff;
+}
+
+.btnGood:hover {
+  background-color: rgb(50, 48, 196);
+}
+
+.btnNeutral {
+  background-color: rgb(180, 165, 165);
+  color: #fff;
+}
+
+.btnNeutral:hover {
+  background-color: rgb(87, 83, 83);
+}
+
+.btnBad {
+  background-color: red;
+  color: #fff;
+}
+
+.btnBad:hover {
+  background-color: rgb(146, 29, 29);
+}
+
+.btnReset {
+  background-color: white;
+}
+
+.btnReset:hover {
+  background-color: rgb(180, 165, 165);
+}
